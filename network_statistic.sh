@@ -3,6 +3,8 @@
 ## This script will do a trace route to a specified IP and collect tcp connection performance.
 ## You could deploy it in crontab to monitor the network connection performance in background.
 ## The Output log will be stored under ~/network_statistic/.
+## Usage:
+## network_statistic.sh <ip> <port>
 
 ip=$1
 port=$2
